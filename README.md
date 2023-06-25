@@ -29,7 +29,7 @@ O script irá analisar a configuração das interfaces exibir os erros encontrad
 
 ![image](https://github.com/airton-git/AtnSSH/assets/82294435/d3e1ddf2-160d-43cf-b55d-54da88b71ee9)
 
-
+A coluna interface 0 e 1 foi adicionada para identificar qual comando aplicar na correção da falha encontrada.
 
 
 Contribuição
