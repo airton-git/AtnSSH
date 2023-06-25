@@ -10,10 +10,11 @@ class AtnSSH:
     def __init__(self):
         self.ip = ""
         self.username = ""
+        self.senha = ""
 
     def test_ip(self):
         while True:
-            self.ip = input("Digite o endereço IP: ")
+            self.ip = input("\nDigite o endereço IP: ")
 
             print("\nTestando conectividade ICMP...\n")
 
@@ -30,7 +31,7 @@ class AtnSSH:
 
     def connect(self):
         self.username = input("Digite o nome de usuário: ")
-        senha = getpass.getpass("Digite a senha: ")
+        self.senha = getpass.getpass("Digite a senha: ")
 
         while True:
             try:
@@ -41,7 +42,8 @@ class AtnSSH:
                 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
                 # Conectar ao equipamento remoto
-                ssh.connect(self.ip, username=self.username, password=senha)
+                ssh.connect(self.ip, username=self.username,
+                            password=self.senha)
                 break  # Sair do loop se a conexão SSH for estabelecida com sucesso
             except paramiko.AuthenticationException:
                 print("Erro de autenticação. Digite os dados novamente!")
@@ -136,7 +138,8 @@ class AtnSSH:
 
                             # Conectar ao equipamento remoto
                             ssh.connect(
-                                self.ip, username=self.username, password=senha)
+                                self.ip, username=self.username, password=self.senha)
+
                             break  # Sair do loop se a conexão SSH for estabelecida com sucesso
                         except paramiko.AuthenticationException:
                             print(
