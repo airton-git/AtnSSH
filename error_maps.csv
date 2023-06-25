@@ -1,4 +1,6 @@
-Code;Erro;Cause;Solution;Command Solution
-1;duplex half;Degrada��o da velocidade do link;Alterar para Full Duplex;duplex auto
-2;shutdown;Porta desabilitada manualmente;Se estiver ativa retire o shutdown;no shutdown
-3;speed 10;A negocia��o deve ser no minimo 100 Mbps;Mude a velocidade da porta;speed auto
+Code;Erro;Interface;Cause;Solution;Command Solution
+1;duplex half;1;Degradação da velocidade do link;Alterar para Full Duplex;duplex auto
+2;shutdown;1;Porta desabilitada manualmente;Se estiver ativa retire o shutdown;no shutdown
+3;speed 10;1;A negociação deve ser no minimo 100 Mbps;Mude a velocidade da porta;speed auto
+4;ip http server;0;Fora do padrão de configuração (HTTP) ;Desabilitar a configuração de acesso HTTP.;no ip http server
+5;ip http secure-server;0;Fora do padrão de configuração (HTTP) ;Desabilitar a configuração de acesso HTTP.;no ip http secure-server
