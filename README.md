@@ -38,6 +38,10 @@ O script irá analisar a configuração das interfaces exibir os erros encontrad
 
 A coluna **Interface** com os valores 0 e 1 foi adicionada para identificar qual comando aplicar na correção da falha encontrada.
 
+**Testes executados na seguinte topologia:**
+
+![image](https://github.com/airton-git/AtnSSH/assets/82294435/6ad4a7eb-3600-41ca-8b81-e194f67c923e)
+
 
 Contribuição
 Contribuições são bem-vindas! Se você encontrar um bug ou tiver sugestões de melhorias, abra um problema ou envie uma solicitação de pull.
