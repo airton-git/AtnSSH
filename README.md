@@ -20,7 +20,7 @@ O AtnSSH é um script em Python que permite conectar-se a um dispositivo de rede
 ### Começando
 Clone o repositório: git clone https://github.com/airton-git/AtnSSH/
 
-**Instale as dependências necessárias: **
+**Instale as dependências necessárias:**
 
 pip install paramiko
 
