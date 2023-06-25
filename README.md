@@ -5,22 +5,30 @@
 O AtnSSH é um script em Python que permite conectar-se a um dispositivo de rede remoto via SSH e analisar sua configuração em busca de erros. Ele auxilia administradores e engenheiros de redes a identificar e resolver rapidamente problemas comuns de configuração, garantindo um desempenho e estabilidade da rede.
 
 ### Recursos
-Teste de conectividade ICMP: O script realiza um teste de ping ICMP para verificar a conectividade com o dispositivo de destino antes de estabelecer a conexão SSH.
+**Teste de conectividade ICMP:** O script realiza um teste de ping ICMP para verificar a conectividade com o dispositivo de destino antes de estabelecer a conexão SSH.
 
-Conexão SSH: Ele estabelece uma conexão SSH com o dispositivo remoto usando o endereço IP, nome de usuário e senha fornecidos.
+**Conexão SSH:** Ele estabelece uma conexão SSH com o dispositivo remoto usando o endereço IP, nome de usuário e senha fornecidos.
 
-Análise de configuração: O script recupera a configuração em execução do dispositivo e a analisa em busca de erros ou problemas conhecidos.
+**Análise de configuração:** O script recupera a configuração em execução do dispositivo e a analisa em busca de erros ou problemas conhecidos.
 
-Detecção de erros: O script compara a configuração do dispositivo com uma lista pré-definida de padrões de erros conhecidos e destaca qualquer correspondência encontrada.
+**Detecção de erros:** O script compara a configuração do dispositivo com uma lista pré-definida de padrões de erros conhecidos e destaca qualquer correspondência encontrada.
 
-Resolução de erros: Se um erro for detectado, o script fornece informações detalhadas sobre o erro, incluindo sua causa, solução e os comandos necessários para corrigi-lo. Ele também permite executar os comandos de solução no dispositivo remoto.
+**Resolução de erros:** Se um erro for detectado, o script fornece informações detalhadas sobre o erro, incluindo sua causa, solução e os comandos necessários para corrigi-lo de acordo com o **mapa de erros** error_maps.csv. Ele também permite executar os comandos de solução no dispositivo remoto automaticamente.
 
-Personalização do mapa de erros: É possível personalizar a lista de erros conhecidos e suas soluções correspondentes atualizando o arquivo **error_maps.csv**.
+**Personalização do mapa de erros:** É possível personalizar a lista de erros conhecidos e suas soluções correspondentes atualizando o arquivo **error_maps.csv**.
 
 ### Começando
 Clone o repositório: git clone https://github.com/airton-git/AtnSSH/
 
 Instale as dependências necessárias: pip install paramiko
+
+Outras dependências necessárias:
+
+import subprocess
+import getpass
+import csv
+import os
+import time
 
 Execute o script: python AtnSSH.py
 
