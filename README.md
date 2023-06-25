@@ -24,11 +24,7 @@ Instale as dependências necessárias: pip install paramiko
 
 **Outras dependências necessárias:**
 
-import subprocess
-import getpass
-import csv
-import os
-import time
+subprocess, getpass, csv, os, time
 
 Execute o script: python AtnSSH.py
 
