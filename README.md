@@ -22,7 +22,7 @@ Clone o repositório: git clone https://github.com/airton-git/AtnSSH/
 
 Instale as dependências necessárias: pip install paramiko
 
-Outras dependências necessárias:
+**Outras dependências necessárias:**
 
 import subprocess
 import getpass
