@@ -1,5 +1,4 @@
 # AtnSSH
-AtnSSH - Projeto Atividade Extencionista
 
 ### Analisador de Configuração de Rede
 O Analisador de Configuração de Rede é um script em Python que permite conectar-se a um dispositivo de rede remoto via SSH e analisar sua configuração em busca de erros. Ele auxilia administradores e engenheiros de redes a identificar e resolver rapidamente problemas comuns de configuração, garantindo um desempenho e estabilidade ótimos na rede.
