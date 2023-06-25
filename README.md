@@ -27,7 +27,8 @@ Siga as instruções na tela para inserir o endereço IP, nome de usuário e sen
 
 O script irá analisar a configuração das interfaces exibir os erros encontrador que estão na coluna "**Erro**" do arquivo **error_maps.csv**, ira aplicar o comando que estiver na coluna "**Command Solution**".
 
-![image](https://github.com/airton-git/AtnSSH/assets/82294435/928955d9-8096-4f6a-ac04-5c126e7953b7)
+![image](https://github.com/airton-git/AtnSSH/assets/82294435/d3e1ddf2-160d-43cf-b55d-54da88b71ee9)
+
 
 
 
