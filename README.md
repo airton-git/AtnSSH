@@ -1,6 +1,7 @@
 # AtnSSH
 
-### Procura erros conhecidos e aplica as correções automaticamente.
+### Procura erros conhecidos e aplica as correções automaticamente em equipamentos Cisco com acesso SSH.
+
 O AtnSSH é um script em Python que permite conectar-se a um dispositivo de rede remoto via SSH e analisar sua configuração em busca de erros. Ele auxilia administradores e engenheiros de redes a identificar e resolver rapidamente problemas comuns de configuração, garantindo um desempenho e estabilidade da rede.
 
 ### Recursos
