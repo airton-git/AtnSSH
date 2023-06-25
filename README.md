@@ -25,7 +25,11 @@ Execute o script: python AtnSSH.py
 
 Siga as instruções na tela para inserir o endereço IP, nome de usuário e senha do dispositivo de destino.
 
-O script irá analisar a configuração do dispositivo e exibir quaisquer erros detectados, juntamente com soluções sugeridas.
+O script irá analisar a configuração das interfaces exibir os erros encontrador que estão na coluna "**Erro**" do arquivo **error_maps.csv**, ira aplicar o comando que estiver na coluna "**Command Solution**".
+
+![image](https://github.com/airton-git/AtnSSH/assets/82294435/928955d9-8096-4f6a-ac04-5c126e7953b7)
+
+
 
 Contribuição
 Contribuições são bem-vindas! Se você encontrar um bug ou tiver sugestões de melhorias, abra um problema ou envie uma solicitação de pull.
