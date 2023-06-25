@@ -1,7 +1,7 @@
 # AtnSSH
 
-### Analisador de Configuração de Rede
-O Analisador de Configuração de Rede é um script em Python que permite conectar-se a um dispositivo de rede remoto via SSH e analisar sua configuração em busca de erros. Ele auxilia administradores e engenheiros de redes a identificar e resolver rapidamente problemas comuns de configuração, garantindo um desempenho e estabilidade ótimos na rede.
+### Procura erros conhecidos e aplica as correções automaticamente.
+O AtnSSH é um script em Python que permite conectar-se a um dispositivo de rede remoto via SSH e analisar sua configuração em busca de erros. Ele auxilia administradores e engenheiros de redes a identificar e resolver rapidamente problemas comuns de configuração, garantindo um desempenho e estabilidade da rede.
 
 ### Recursos
 Teste de conectividade ICMP: O script realiza um teste de ping ICMP para verificar a conectividade com o dispositivo de destino antes de estabelecer a conexão SSH.
@@ -14,7 +14,7 @@ Detecção de erros: O script compara a configuração do dispositivo com uma li
 
 Resolução de erros: Se um erro for detectado, o script fornece informações detalhadas sobre o erro, incluindo sua causa, solução e os comandos necessários para corrigi-lo. Ele também permite executar os comandos de solução no dispositivo remoto.
 
-Personalização do mapa de erros: É possível personalizar a lista de erros conhecidos e suas soluções correspondentes atualizando o arquivo error_maps.csv.
+Personalização do mapa de erros: É possível personalizar a lista de erros conhecidos e suas soluções correspondentes atualizando o arquivo **error_maps.csv**.
 
 ### Começando
 Clone o repositório: git clone https://github.com/airton-git/AtnSSH/
