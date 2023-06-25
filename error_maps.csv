@@ -1,0 +1,4 @@
+Code;Erro;Cause;Solution;Command Solution
+1;duplex half;Degradação da velocidade do link;Alterar para Full Duplex;duplex auto
+2;shutdown;Porta desabilitada manualmente;Se estiver ativa retire o shutdown;no shutdown
+3;speed 10;A negociação deve ser no minimo 100 Mbps;Mude a velocidade da porta;speed auto
